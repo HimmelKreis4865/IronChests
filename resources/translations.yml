@@ -1,0 +1,75 @@
+en_US:
+  blocks:
+    iron_chests:dirt_chest: Dirt Chest
+    iron_chests:copper_chest: Copper Chest
+    iron_chests:iron_chests: Iron Chest
+    iron_chests:gold_chest: Gold Chest
+    iron_chests:diamond_chest: Diamond Chest
+    iron_chests:crystal_chest: Crystal Chest
+    iron_chests:obsidian_chest: Obsidian Chest
+
+  items:
+    wood_iron_upgrade: Wood To Iron Chest Upgrade
+    wood_copper_upgrade: Wood To Copper Chest Upgrade
+    copper_iron_upgrade: Copper To Iron Chest Upgrade
+    iron_gold_upgrade: Iron To Gold Chest Upgrade
+    gold_diamond_upgrade: Gold To Diamond Chest Upgrade
+    diamond_crystal_upgrade: Diamond To Crystal Chest Upgrade
+    diamond_obsidian_upgrade: Diamond To Obsidian Chest Upgrade
+
+de_DE:
+  blocks:
+    iron_chests:dirt_chest: Erdtruhe
+    iron_chests:copper_chest: Kupfertruhe
+    iron_chests:iron_chests: Eisentruhe
+    iron_chests:gold_chest: Goldtruhe
+    iron_chests:diamond_chest: Diamanttruhe
+    iron_chests:crystal_chest: Kristalltruhe
+    iron_chests:obsidian_chest: Obsidiantruhe
+
+  items:
+    wood_iron_upgrade: "Truhen Upgrade: Holz zu Eisen"
+    wood_copper_upgrade: "Truhen Upgrade: Holz zu Kupfer"
+    copper_iron_upgrade: "Truhen Upgrade: Kupfer zu Eisen"
+    iron_gold_upgrade: "Truhen Upgrade: Eisen zu Gold"
+    gold_diamond_upgrade: "Truhen Upgrade: Gold zu Diamant"
+    diamond_crystal_upgrade: "Truhen Upgrade: Diamant zu Kristall"
+    diamond_obsidian_upgrade: "Truhen Upgrade: Diamant zu Obsidian"
+
+fr_FR:
+  blocks:
+    iron_chests:dirt_chest: Coffre en terre
+    iron_chests:copper_chest: Coffre en cuivre
+    iron_chests:iron_chests: Coffre en fer
+    iron_chests:gold_chest: Coffre en or
+    iron_chests:diamond_chest: Coffre en diamant
+    iron_chests:crystal_chest: Coffre en cristal
+    iron_chests:obsidian_chest: Coffre en obsidienne
+
+  items:
+    wood_iron_upgrade: Amélioration de coffre en bois vers fer
+    wood_copper_upgrade: Amélioration de coffre en bois vers cuivre
+    copper_iron_upgrade: Amélioration de coffre en cuivre vers fer
+    iron_gold_upgrade: Amélioration de coffre en fer vers or
+    gold_diamond_upgrade: Amélioration de coffre en or vers diamant
+    diamond_crystal_upgrade: Amélioration de coffre en diamant vers cristal
+    diamond_obsidian_upgrade: Amélioration de coffre en diamant vers obsidienne
+
+es_ES:
+  blocks:
+    iron_chests:dirt_chest: Cofre de tierra
+    iron_chests:copper_chest: Cofre de cobre
+    iron_chests:iron_chests: Cofre de hierro
+    iron_chests:gold_chest: Cofre de oro
+    iron_chests:diamond_chest: Cofre de diamante
+    iron_chests:crystal_chest: Cofre de cristal
+    iron_chests:obsidian_chest: Cofre de obsidiana
+
+  items:
+    wood_iron_upgrade: Mejora de cofre de madera a hierro
+    wood_copper_upgrade: Mejora de cofre de madera a cobre
+    copper_iron_upgrade: Mejora de cofre de cobre a hierro
+    iron_gold_upgrade: Mejora de cofre de hierro a oro
+    gold_diamond_upgrade: Mejora de cofre de oro a diamante
+    diamond_crystal_upgrade: Mejora de cofre de diamante a cristal
+    diamond_obsidian_upgrade: Mejora de cofre de diamante a obsidiana

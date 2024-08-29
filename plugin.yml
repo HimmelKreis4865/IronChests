@@ -1,0 +1,8 @@
+name: IronChests
+author: HimmelKreis4865
+version: 1.0.0
+main: HimmelKreis4865\IronChests\IronChests
+api: 5.0.0
+depend:
+  - Customies
+  - ModSmith
