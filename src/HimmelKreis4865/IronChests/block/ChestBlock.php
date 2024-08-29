@@ -21,7 +21,6 @@ use pocketmine\math\Vector3;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\player\Player;
 use pocketmine\world\BlockTransaction;
-use function var_dump;
 
 class ChestBlock extends Transparent implements Permutable {
 	use RotatableTrait {
@@ -90,7 +89,6 @@ class ChestBlock extends Transparent implements Permutable {
 
 	public function onInteract(Item $item, int $face, Vector3 $clickVector, ?Player $player = null, array &$returnedItems = []): bool {
 		$tile = $this->position->getWorld()->getTile($this->position);
-		var_dump("on interact: " . ($tile ? $tile::class : "null"));
 		if ($player instanceof Player && $tile instanceof ChestTile) {
 			$player->setCurrentWindow($tile->getInventory());
 		}

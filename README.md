@@ -3,6 +3,8 @@ This PocketMine-MP plugin is inspired by the original [IronChests mod for Java E
 
 This plugin uses their textures & mechanics, which means you can craft the same recipes.
 
+This plugin needs [ModSmith](https://github.com/HimmelKreis4865/ModSmith) and [Customies](https://github.com/CustomiesDevs/Customies) in order to start.
+
 ## Blocks
 All added blocks are chests:
 

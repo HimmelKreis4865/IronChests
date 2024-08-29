@@ -62,7 +62,6 @@ use pocketmine\world\Position;
 use RuntimeException;
 use function igbinary_serialize;
 use function igbinary_unserialize;
-use function var_dump;
 
 final class IronChests extends PluginBase {
 	use SingletonTrait;
@@ -216,7 +215,6 @@ final class IronChests extends PluginBase {
 		$config = new Config($this->getDataFolder() . "translations.yml", Config::YAML);
 		foreach ($config->getAll() as $languageString => $translations) {
 			$language = null;
-			var_dump($languageString);
 			foreach (Language::cases() as $lang) {
 				if ($lang->name === $languageString) {
 					$language = $lang;
