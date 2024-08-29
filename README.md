@@ -16,8 +16,12 @@ All added blocks are chests:
 | Obsidian Chest | `iron_chests:obsidian_chest` | 14x7      | Blastproof  |
 | Crystal Chest  | `iron_chests:crystal_chest`  | 14x7      | Transparent |
 
+All chests can be crafted with the previous chest in the center, filled up with the new chest material.
+The previous chest for Dirt & Copper is the vanilla chest.
+
 ## Items
-All added items are chest upgrades which can be applied by shift clicking on the correct chest
+All added items are chest upgrades which can be applied by shift clicking on the correct chest.
+The chest will keep its contents.
 
 | Identifier                             | Initial Chest | New Chest      |
 |----------------------------------------|---------------|----------------|
@@ -28,6 +32,9 @@ All added items are chest upgrades which can be applied by shift clicking on the
 | `iron_chests:gold_diamond_upgrade`     | Gold Chest    | Diamond Chest  |
 | `iron_chests:diamond_crystal_upgrade`  | Diamond Chest | Crystal Chest  |
 | `iron_chests:diamond_obsidian_upgrade` | Diamond Chest | Obsidian Chest |
+
+The chest upgrades can be crafted with the material of the previous chest in the center, filled up with the material required for the new chest
+The material of the vanilla chest is any plank and the material of the crystal chest is glass
 
 ## Translations
 If you are unhappy or missing some translations, you can always edit them yourself in plugin_data/IronChests/translations.yml
