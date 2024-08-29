@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/HimmelKreis4865/IronChests
+build-by-default: true
+branches:
+- main
+projects:
+  IronChests:
+    path: ""
+...
