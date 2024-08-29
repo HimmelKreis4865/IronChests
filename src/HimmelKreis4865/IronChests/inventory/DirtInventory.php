@@ -20,7 +20,7 @@ class DirtInventory extends CustomChestInventory {
 	public function __construct(Position $holder) {
 		parent::__construct($holder, "Dirt Chest", new Dimension(1, 1), [
 			Text::chestTitle("Dirt Chest"),
-			new Slot(0, anchor: new Anchor(AnchorType::CENTER, AnchorType::CENTER))
+			new Slot(0, offset: new Dimension(0, 5), anchor: new Anchor(AnchorType::CENTER, AnchorType::CENTER))
 		]);
 	}
 

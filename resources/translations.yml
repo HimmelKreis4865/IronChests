@@ -2,7 +2,7 @@ en_US:
   blocks:
     iron_chests:dirt_chest: Dirt Chest
     iron_chests:copper_chest: Copper Chest
-    iron_chests:iron_chests: Iron Chest
+    iron_chests:iron_chest: Iron Chest
     iron_chests:gold_chest: Gold Chest
     iron_chests:diamond_chest: Diamond Chest
     iron_chests:crystal_chest: Crystal Chest
@@ -21,7 +21,7 @@ de_DE:
   blocks:
     iron_chests:dirt_chest: Erdtruhe
     iron_chests:copper_chest: Kupfertruhe
-    iron_chests:iron_chests: Eisentruhe
+    iron_chests:iron_chest: Eisentruhe
     iron_chests:gold_chest: Goldtruhe
     iron_chests:diamond_chest: Diamanttruhe
     iron_chests:crystal_chest: Kristalltruhe
@@ -40,7 +40,7 @@ fr_FR:
   blocks:
     iron_chests:dirt_chest: Coffre en terre
     iron_chests:copper_chest: Coffre en cuivre
-    iron_chests:iron_chests: Coffre en fer
+    iron_chests:iron_chest: Coffre en fer
     iron_chests:gold_chest: Coffre en or
     iron_chests:diamond_chest: Coffre en diamant
     iron_chests:crystal_chest: Coffre en cristal
@@ -59,7 +59,7 @@ es_ES:
   blocks:
     iron_chests:dirt_chest: Cofre de tierra
     iron_chests:copper_chest: Cofre de cobre
-    iron_chests:iron_chests: Cofre de hierro
+    iron_chests:iron_chest: Cofre de hierro
     iron_chests:gold_chest: Cofre de oro
     iron_chests:diamond_chest: Cofre de diamante
     iron_chests:crystal_chest: Cofre de cristal

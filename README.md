@@ -42,3 +42,17 @@ The material of the vanilla chest is any plank and the material of the crystal c
 If you are unhappy or missing some translations, you can always edit them yourself in plugin_data/IronChests/translations.yml
 
 To add a new language, copy the all translation keys from another language and replace the locale code.
+
+## Screenshots
+
+<img src="https://imgur.com/sACids6" alt="Crafting recipe for an obsidian chest">
+Crafting recipe for the Obsidian Chest
+
+<img src="https://imgur.com/G5YDoQg" alt="Dirt Chest inventory">
+Dirt Chest Inventory
+
+<img src="https://imgur.com/0ZIHftS" alt="Gold Chest inventory">
+Gold Chest Inventory
+
+<img src="https://imgur.com/E9RAaLc" alt="Obsidian Chest inventory">
+Obsidian Chest Inventory
