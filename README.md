@@ -45,14 +45,25 @@ To add a new language, copy the all translation keys from another language and r
 
 ## Screenshots
 
-<img src="https://imgur.com/sACids6" alt="Crafting recipe for an obsidian chest">
-Crafting recipe for the Obsidian Chest
+<img src="https://i.imgur.com/wHHGBZc.png" alt="Crafting recipe for an obsidian chest">  
 
-<img src="https://imgur.com/G5YDoQg" alt="Dirt Chest inventory">
-Dirt Chest Inventory
 
-<img src="https://imgur.com/0ZIHftS" alt="Gold Chest inventory">
-Gold Chest Inventory
+Crafting recipe for the Obsidian Chest  
 
-<img src="https://imgur.com/E9RAaLc" alt="Obsidian Chest inventory">
-Obsidian Chest Inventory
+
+<img src="https://i.imgur.com/G5YDoQg.png" alt="Dirt Chest inventory">  
+
+
+Dirt Chest Inventory  
+
+
+<img src="https://i.imgur.com/0ZIHftS.png" alt="Gold Chest inventory">  
+
+
+Gold Chest Inventory  
+
+
+<img src="https://i.imgur.com/E9RAaLc.png" alt="Obsidian Chest inventory">  
+
+
+Obsidian Chest Inventory  
