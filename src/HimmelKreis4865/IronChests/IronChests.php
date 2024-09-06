@@ -83,13 +83,13 @@ final class IronChests extends PluginBase {
 		$this->loadTranslations();
 
 		$pos = Position::fromObject(Vector3::zero(), null);
-		CustomInventoryRegistry::getInstance()->register(new CopperInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new DirtInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new CrystalInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new DiamondInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new GoldInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new IronInventory($pos));
-		CustomInventoryRegistry::getInstance()->register(new ObsidianInventory($pos));
+		CustomInventoryRegistry::getInstance()->register(CopperInventory::class);
+		CustomInventoryRegistry::getInstance()->register(DirtInventory::class);
+		CustomInventoryRegistry::getInstance()->register(CrystalInventory::class);
+		CustomInventoryRegistry::getInstance()->register(DiamondInventory::class);
+		CustomInventoryRegistry::getInstance()->register(GoldInventory::class);
+		CustomInventoryRegistry::getInstance()->register(IronInventory::class);
+		CustomInventoryRegistry::getInstance()->register(ObsidianInventory::class);
 
 		$this->registerChest("dirt_chest", "Dirt Chest", DirtChest::class, BlockBreakInfo::pickaxe(3.0, ToolTier::STONE, 6.0));
 		$this->registerChest("copper_chest", "Copper Chest", CopperChest::class, BlockBreakInfo::pickaxe(3.0, ToolTier::STONE, 6.0));

@@ -10,6 +10,7 @@ use customiesdevs\customies\block\permutations\Permutation;
 use customiesdevs\customies\block\permutations\Permutations;
 use customiesdevs\customies\block\permutations\RotatableTrait;
 use HimmelKreis4865\IronChests\block\tile\ChestTile;
+use HimmelKreis4865\IronChests\IronChests;
 use pocketmine\block\Block;
 use pocketmine\block\Transparent;
 use pocketmine\data\bedrock\block\convert\BlockStateReader;
@@ -31,7 +32,7 @@ class ChestBlock extends Transparent implements Permutable {
 		deserializeState as deserializeRotation;
 	}
 
-	private const STATE_OPEN = "iron_chest:open";
+	private const STATE_OPEN = IronChests::PREFIX . "open";
 
 	private bool $open = false;
 
