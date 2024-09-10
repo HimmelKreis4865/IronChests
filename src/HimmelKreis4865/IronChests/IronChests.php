@@ -162,9 +162,10 @@ final class IronChests extends PluginBase {
 		if ($breakInfoSerialized === null) {
 			throw new RuntimeException("Failed to serialize block break info");
 		}
+		$typeId = BlockTypeIds::newId();
 		CustomiesBlockFactory::getInstance()->registerBlock(
 			static fn() => new ChestBlock(
-				new BlockIdentifier(BlockTypeIds::newId(), $tileClass),
+				new BlockIdentifier($typeId, $tileClass),
 				$name,
 				new BlockTypeInfo(igbinary_unserialize($breakInfoSerialized))
 			),
