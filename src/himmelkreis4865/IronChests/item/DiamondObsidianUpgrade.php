@@ -19,6 +19,6 @@ class DiamondObsidianUpgrade extends ItemUpgradeShard {
 	}
 
 	protected function getOutputChest(ChestBlock $previousBlock): ChestBlock {
-		return IronChestBlocks::CRYSTAL_CHEST()->setFacing($previousBlock->getFacing());
+		return IronChestBlocks::OBSIDIAN_CHEST()->setFacing($previousBlock->getFacing());
 	}
 }

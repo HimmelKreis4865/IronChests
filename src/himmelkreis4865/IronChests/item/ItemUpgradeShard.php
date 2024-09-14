@@ -16,6 +16,7 @@ use pocketmine\item\ItemIdentifier;
 use pocketmine\item\ItemUseResult;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
+use function var_dump;
 
 abstract class ItemUpgradeShard extends Item  implements ItemComponents {
 	use ItemComponentsTrait;
@@ -52,6 +53,7 @@ abstract class ItemUpgradeShard extends Item  implements ItemComponents {
 				$newTile = $world->getTile($blockClicked->getPosition());
 				if ($newTile instanceof ChestTile) {
 					$newTile->getInventory()->setContents($contents);
+					$this->pop();
 					return ItemUseResult::SUCCESS;
 				} // todo: throw exception if newTile is null?
 			}
