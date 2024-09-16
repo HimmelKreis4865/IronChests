@@ -11,12 +11,12 @@ use himmelkreis4865\IronChests\block\ChestBlock;
 use himmelkreis4865\IronChests\block\tile\ChestTile;
 use himmelkreis4865\IronChests\event\ChestUpgradeEvent;
 use pocketmine\block\Block;
+use pocketmine\block\tile\Container;
 use pocketmine\item\Item;
 use pocketmine\item\ItemIdentifier;
 use pocketmine\item\ItemUseResult;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
-use function var_dump;
 
 abstract class ItemUpgradeShard extends Item  implements ItemComponents {
 	use ItemComponentsTrait;
@@ -34,15 +34,15 @@ abstract class ItemUpgradeShard extends Item  implements ItemComponents {
 
 	abstract protected function getInitialChestId(): int;
 
-	abstract protected function getOutputChest(ChestBlock $previousBlock): ChestBlock;
+	abstract protected function getOutputChest(Block $previousBlock): ChestBlock;
 
 	public function onInteractBlock(Player $player, Block $blockReplace, Block $blockClicked, int $face, Vector3 $clickVector, array &$returnedItems): ItemUseResult {
-		if (!$blockClicked instanceof ChestBlock || $blockClicked->getTypeId() !== $this->getInitialChestId()) {
+		if ($blockClicked->getTypeId() !== $this->getInitialChestId()) {
 			return ItemUseResult::FAIL;
 		}
 		$world = $player->getWorld();
 		$tile = $world->getTile($blockClicked->getPosition());
-		if ($tile instanceof ChestTile) {
+		if ($tile instanceof Container) {
 			$output = $this->getOutputChest($blockClicked);
 			$event = new ChestUpgradeEvent($blockClicked, $output);
 			$event->call();

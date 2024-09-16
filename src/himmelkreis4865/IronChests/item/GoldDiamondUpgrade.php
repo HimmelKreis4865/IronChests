@@ -7,6 +7,8 @@ namespace himmelkreis4865\IronChests\item;
 use himmelkreis4865\IronChests\block\ChestBlock;
 use himmelkreis4865\IronChests\block\IronChestBlocks;
 use himmelkreis4865\IronChests\item\ItemUpgradeShard;
+use pocketmine\block\Block;
+use RuntimeException;
 
 class GoldDiamondUpgrade extends ItemUpgradeShard {
 
@@ -18,7 +20,10 @@ class GoldDiamondUpgrade extends ItemUpgradeShard {
 		return IronChestBlocks::GOLD_CHEST()->getTypeId();
 	}
 
-	protected function getOutputChest(ChestBlock $previousBlock): ChestBlock {
+	protected function getOutputChest(Block $previousBlock): ChestBlock {
+		if (!$previousBlock instanceof ChestBlock) {
+			throw new RuntimeException("Failed to create an output chest because the previous block is different than expected");
+		}
 		return IronChestBlocks::DIAMOND_CHEST()->setFacing($previousBlock->getFacing());
 	}
 }
